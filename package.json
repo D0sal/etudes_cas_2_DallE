@@ -1,0 +1,27 @@
+{
+  "name": "etudes_cas_2_dalle",
+  "version": "1.0.0",
+  "description": "this project is about creating a web app using a CLIP model to let the user write an input as a text and have him return a, corresponding image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D0sal/etudes_cas_2_DallE.git"
+  },
+  "keywords": [
+    "CLIP",
+    "tensorflow",
+    "DallE"
+  ],
+  "author": "Nathan Oliveira Da Silva, Léo Bernard, Borget Valentin, Alice Janela Cameijo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D0sal/etudes_cas_2_DallE/issues"
+  },
+  "homepage": "https://github.com/D0sal/etudes_cas_2_DallE#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
