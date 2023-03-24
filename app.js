@@ -3,7 +3,15 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.sendFile(__dirname + '/index.html');
+});
+
+app.get('/:textInput', (req, res) => {
+  const textInput = req.params.textInput;
+  // ici load les images avec tensorflow.js
+  
+
+  res.send({image: textInput})
 });
 
 app.listen(3000, () => {
