@@ -1,8 +1,6 @@
 # Cas_etude2.ipynb
 
-
-!pip install transformers
-
+# !pip install transformers
 
 import os
 import zipfile
