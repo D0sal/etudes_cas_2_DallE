@@ -30,7 +30,7 @@
     buttonSingleImage.addEventListener('click', async () => {
         const textInput = document.getElementById('text-input')?.value;
         if (textInput === '') {
-            alert('your text input must contain at last a word')
+            alert('your text input must contain at least a word')
             throw new Error('your text input must contain at last a word')
         }
 
@@ -46,7 +46,7 @@
     buttonMultipleImages.addEventListener('click', async () => {
         const textInput = document.getElementById('text-input')?.value;
         if (textInput === '') {
-            alert('your text input must contain at last a word')
+            alert('your text input must contain at least a word')
             throw new Error('your text input must contain at last a word')
         }
 
