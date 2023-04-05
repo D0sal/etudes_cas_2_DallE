@@ -25,8 +25,7 @@ tokenizer = AutoTokenizer.from_pretrained("openai/clip-vit-base-patch32")
 
 imageprocess = CLIPImageProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
-path = pathlib.Path('/dataset/') 
-#search = "a cat on a newspaper"
+path = pathlib.Path('/small_dataset/') 
 search = sys.argv[1]
 
 if sys.argv[2] :
